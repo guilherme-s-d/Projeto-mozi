@@ -1,0 +1,71 @@
+body {
+    background-image: url(./Allodi-Papel-de-Parede-Adesivo---Love---002ppo-8707-054091-1-zoom.jpg);
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+header .coracao:hover {
+    position: relative;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+main {
+    padding: 25px;
+}
+
+.pergaminho {
+    position: relative;
+}
+
+.texto1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    width: 400px;
+}
+
+main .titulo,
+main .titulo1 {
+    display: flex;
+    justify-content: baseline;
+    background-color: rgb(63, 38, 63);
+    padding: 10px;
+
+}
+
+main .texto {
+    background-color: rgb(113, 67, 113);
+    padding: 10px;
+}
+
+main .pergaminho {
+    display: flex;
+    justify-content: center;
+}
